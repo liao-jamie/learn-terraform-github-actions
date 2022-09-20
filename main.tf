@@ -15,7 +15,7 @@ terraform {
     organization = "jamie-test-tutorials"
 
     workspaces {
-      name = "gh-actions-demo"
+      tags = ["multi_test"]
     }
   }
 }
